@@ -1,0 +1,1 @@
+Una vez arrancado accederemos a la url donde se ha publicado la api con swagger http://localhost:8085/airline/swagger-ui/index.html y verificamos que Explore tenga como valor /airline/v3/api-docs
