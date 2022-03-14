@@ -9,11 +9,11 @@
 		<version>2.4.0</version>
 		<relativePath />
 	</parent>
-	<groupId>com.everis.dar</groupId>
-	<artifactId>spring-airline</artifactId>
+	<groupId>com.example.microservicio</groupId>
+	<artifactId>spring-test</artifactId>
 	<version>1.0.0</version>
-	<name>spring-airline</name>
-	<description>Microservice that offers information on the flights of the Spring Airline</description>
+	<name>spring-test</name>
+	<description>Microservice that offers information on the flights</description>
 
 	<properties>
 		<java.version>11</java.version>
@@ -49,8 +49,13 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+        <skip>true</skip>
+      </configuration>
 			</plugin>
 		</plugins>
 	</build>
+	
+	
 
 </project>

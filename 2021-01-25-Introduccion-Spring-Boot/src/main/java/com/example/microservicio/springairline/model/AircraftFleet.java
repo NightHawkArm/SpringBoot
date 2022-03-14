@@ -1,4 +1,4 @@
-package com.everis.dar.springairline.model;
+package com.example.microservicio.springairline.model;
 
 import java.util.HashMap;
 import java.util.Map;

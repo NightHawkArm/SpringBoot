@@ -1,4 +1,4 @@
-package com.everis.dar.springairline.rest;
+package com.example.microservicio.springairline.rest;
 
 import java.util.Map;
 import java.util.Map.Entry;
@@ -16,9 +16,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.everis.dar.springairline.model.AircraftFleet;
-import com.everis.dar.springairline.model.Flight;
-import com.everis.dar.springairline.model.Passenger;
+import com.example.microservicio.springairline.model.AircraftFleet;
+import com.example.microservicio.springairline.model.Flight;
+import com.example.microservicio.springairline.model.Passenger;
 
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;

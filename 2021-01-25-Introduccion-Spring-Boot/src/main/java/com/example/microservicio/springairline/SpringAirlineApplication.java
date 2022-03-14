@@ -1,4 +1,4 @@
-package com.everis.dar.springairline;
+package com.example.microservicio.springairline;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
